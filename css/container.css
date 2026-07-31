@@ -1,0 +1,27 @@
+/*? Mobile screen */
+
+.container {
+padding: 16px;
+    width: 320px;
+    margin: 0 auto
+}
+
+/*? Tablet screen */
+
+@media screen and (min-width: 768px) {
+    .container {
+padding: 0px 16px;
+    width: 768px;
+    max-width: 768px;
+}
+}
+
+/*? Desktop screen */
+
+@media screen and (min-width: 1158px) {
+    .container {
+padding: 0px 15px;
+    width: 1158px;
+    max-width: 1158px;
+    }
+}
