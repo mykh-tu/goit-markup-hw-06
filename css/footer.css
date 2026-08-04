@@ -1,107 +1,111 @@
 .footer {
     background: #2e2f42;
+    width: 100%;
+height: 664px;
+display: none;
+}
 
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 472px;
+    gap: 72px;
 }
 
 .footer-link {
     font-weight: 700;
-        font-size: 18px;
-        line-height: 1.33;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #f4f4fd;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
 }
 
 .footer-logo {
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
-        font-size: 18px;
-        line-height: 1.33;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .footer-text {
-font-family: Roboto, sans-serif;
-font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-color: #f4f4fd;
+    color: #f4f4fd;
 }
 
 .footer-bottom {
     display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 16px;
-        width: 264px;
-            max-width: 264px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+width: 288px;
+    height: 112px;
+    max-width: 288px;
 }
 
 .footer-box {
     display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
     width: 208px;
     height: 80px;
-    margin-left: 120px;
 }
 
 .footer-title {
     font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #fff;
-      
-}
-
-.social-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
 }
 
 .footer-socialicon {
     display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 16px;
-    
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
 }
 
-.footer .social-link:hover, .footer .social-link:focus {
+.footer .social-link:hover,
+.footer .social-link:focus {
     background-color: #31d0aa;
 }
 
 .social-link {
     fill: #f4f4fd;
     width: 100%;
-        height: 100%;
-        border-radius: 40px;
-        background: #4d5ae5;
-        transition: background-color 250ms cubic-bezier(0.4,
-                    0,
-                    0.2,
-                    1);
+    height: 100%;
+    border-radius: 40px;
+    background: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4,
+            0,
+            0.2,
+            1);
 }
 
-.socialicon {} 
-
-.footer-icon {}
-
 .footer-form {
-display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    margin-left: 83px;
 }
 
 .footer-form-wrapper {
-    width: 264px;
-    
+width: 288px;
 }
 
 .footer-form-field {
@@ -111,17 +115,18 @@ display: flex;
     color: #fff;
     background-color: transparent;
     border-radius: 4px;
-        padding: 8px 16px;
-        width: 264px;
-        height: 40px;
-   
+    padding: 8px 16px;
+    width: 288px;
+    height: 40px;
+
     outline: none;
     transition: border 250ms cubic-bezier(0.4,
-                0,
-                0.2,
-                1);
+            0,
+            0.2,
+            1);
 
-                font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em
@@ -133,64 +138,209 @@ display: flex;
 
 .footer-form-btn {
     border-radius: 4px;
-        padding: 8px 24px;
-        width: 165px;
-        height: 40px;
-        max-width: 165px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    max-width: 165px;
 
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
 
-    border:none;
+    border: none;
     background-color: #4d5ae5;
-    gap:16px;
+    gap: 16px;
 
     display: inline-flex;
-        align-items: flex-start;
-        justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
 
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4,
-                0,
-                0.2,
-                1);
+            0,
+            0.2,
+            1);
 }
-.footer-form-btn:hover, .footer-form-btn:focus {
-    background-color:  #31d0aa;
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+    background-color: #31d0aa;
 }
+
 .footer-form-field:focus {
-border: 1px solid #31D0AA;
+    border: 1px solid #31D0AA;
 }
 
 .footer-form-subscribe {
     display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-                gap: 16px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+        width: 453px;
+        height: 80px;
 }
 
 .form-list {
-display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-            gap: 24px;
-            width: 453px;
-}
-
-
-
-.form-element {
-}
-
-.subscribe-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .subscribe-btn {
     fill: #fff
+}
+
+.footer-tab-padding {
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.footer-tab-element {}
+
+@media only screen and (min-width: 768px) {
+
+.footer {
+    width: 100%;
+        height: 456px;
+    }
+
+    .footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 264px;
+    padding: 0px 108px;
+    width: 768px;
+}
+
+.footer-bottom {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 264px;
+    height: 112px;
+    max-width: 264px;
+    
+}
+
+.footer-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    width: 208px;
+    height: 80px;
+    margin-left: 24px;
+}
+
+.footer-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.footer-form-right {
+width: 453px;
+    height: 80px;
+    max-width: 453px;
+}
+
+.footer-form-btn {
+display: inline-flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+
+}
+
+.footer-form-subscribe {
+    display: flex;
+    align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 72px;
+        
+}
+
+.form-list {
+    display: flex;
+    align-items: flex-start;
+        justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    width: 453px;
+}
+
+.footer-tab-padding {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-wrap: wrap;    
+flex-direction: row;
+}
+
+.footer-tab-element {
+width: calc((100% - 24px) / 2);
+}
+
+}
+
+@media only screen and (min-width: 1168px) {
+
+.footer {
+        width: 100%;
+height: 312px;
+    }
+
+    .footer .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        height: 112px;
+        width: 1158px;
+    }
+
+   .footer-box {
+    margin-left: 120px;
+   }
+
+   .footer-form {
+    flex-direction: column;
+        margin-left: 83px;
+   }
+
+   .footer-form-wrapper {
+       width: 264px;
+   }
+
+   .footer-form-field {
+
+    width: 288px;
+   }
+
+   .footer-form-subscribe {
+margin-top: 0px;   
+}
+
+.form-list {
+    gap:24px;
+}
+
+.footer-tab-padding {
+    flex-wrap: nowrap;
+   
+}
+
 }

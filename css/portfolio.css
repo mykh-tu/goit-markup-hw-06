@@ -1,87 +1,193 @@
 .portfolio {
+    width: 100%;
+    height: 2704px;
 }
 
-.portfolio-title {
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+.portfolio .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 2512px;
+    gap: 72px;
+
 }
 
 .portfolio-list {
     display: flex;
-        flex-wrap: wrap;
-        gap: 48px;
-        column-gap: 24px;
-        }
-
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
 
 .portfolio-item {
-    width: calc((100% - 24px * 2) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4,
-        0,
-        0.2,
-        1);
+            0,
+            0.2,
+            1);
+    justify-content: center;
+    align-items: center;
+
 }
 
 .portfolio-item:hover {
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-ill {
     display: block;
+
+width: 288px;
+    height: 239px;
+    min-width: 288px;
+    max-width: 360px;
+    min-height: 239px;
+    max-height: 300px;
 }
+
 .portfolio-name {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-field {
     font-family: 'Roboto', sans-serif;
-        color: #434455;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+width: 288px;
+    height: 360px;
+    min-width: 288px;
+    max-width: 360px;
+    min-height: 360px;
+    max-height: 420px;
 }
+
 .portfolio-text {
-padding: 32px 16px;
-border-bottom: 1px solid #e7e9fc;
+    padding: 32px 16px;
+    border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
+    width: 288px;
+        height: 120px;
 }
 
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
-transform: translateY(100%);
-transition-property: transform;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4,
-    0,
-    0.2,
-    1);
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,
+            0,
+            0.2,
+            1);
 
-padding: 40px 32px;
+    padding: 40px 32px;
     width: 100%;
     height: 100%;
     min-height: 240px;
     max-height: 300px;
-        color: #f4f4fd;
-        background: #4d5ae5;
+    color: #f4f4fd;
+    background: #4d5ae5;
 }
 
 .portfolio-item:hover .overlay {
     transform: translateY(0);
 }
+
 .payment-wrapper {
     position: relative;
     overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) { 
+
+    .portfolio {
+            height: 1698px;
+        }
+    
+    .portfolio .container {
+height: 1506px;    
+    }
+
+        .portfolio-list {
+            gap: 72px;
+            column-gap: 24px;
+        }
+
+.portfolio-item {
+        width: calc((100% - 24px) / 3);
+}
+
+.portfolio-item:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-ill {
+width: 356px;
+    height: 296px;
+    min-width: 288px;
+    max-width: 360px;
+    min-height: 239px;
+    max-height: 300px;
+}
+
+.portfolio-field {
+
+width: 356px;
+    height: 416px;
+    min-width: 288px;
+    max-width: 360px;
+    min-height: 360px;
+    max-height: 420px;
+}
+
+.portfolio-text {
+width: 100%;
+    height: 120px;
+}
+}
+
+@media only screen and (min-width: 1168px) { 
+
+    .portfolio {
+height: 1240px;            }
+        
+    .portfolio .container {
+height: 1000px;            }
+
+.portfolio-item {
+    width: calc((100% - 24px * 2) / 3);
+}
+
+.portfolio-ill {
+width: 360px;
+    height: 300px;
+    min-width: 288px;
+    max-width: 360px;
+    min-height: 239px;
+    max-height: 300px;
+}
+
+.portfolio-field {
+width: 360px;
+    height: 420px;
+    min-width: 288px;
+    max-width: 360px;
+    min-height: 360px;
+    max-height: 420px;
+
+}
+
+.portfolio-text {
+    width: 100%;
+        height: 120px;
 }

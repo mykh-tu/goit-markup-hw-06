@@ -1,47 +1,167 @@
-.features {
-background-color: #fff;
-}
-.container{}
-.freatures-list {
+.features .container {
 display: flex;
-gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 96px;
+    margin-bottom: 96px;
+        width: 320px;
+        height: 696px;
+        min-width: 320px;
+        max-width: 1158px;
+}
+  .features-list {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+.features-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 72px;
+
+    width: 288px;
+        height: 120px;
+        max-width: 288px;
 }
 
-.features-ill{
-    border: 1px solid #8e8f99;
+    @media only screen and (min-width: 768px) {
+
+.features {
+        background-color: #fff;
+            width: 100%;
+            height: 504px;
+            max-width: 1440px;
+                        margin: auto;
+    }
+
+    .features .container {
+display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+width: 768px;
+            height: 312px;
+            max-width: 1158px;
+
+            margin-top: 0px;
+            margin-bottom: 0px;
+    }
+
+    .features-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 24px;
+        width: 768px;
+            height: 312px;
+    }
+
+    .features-ill {
+        border: 1px solid #8e8f99;
         border-radius: 4px;
         width: 264px;
-}
-.features-item {
-width: 264px;
-}
+    }
 
-.features-caption {
-    margin-bottom: 8px;
-   font-family: Roboto, sans-serif;
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
+    .features-item {
+        width: 356px;
+            height: 120px;
+            min-width: 356px;
+            width: calc((100% - 24px) / 2);
+            margin-bottom: 0px;
+    }
+
+    .features-caption {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         color: #2e2f42;
-}
+        margin-bottom: 8px;
+    }
 
-.features-desc {
-    font-weight: 400;
+    .features-desc {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-    color: #434455;
+        color: #434455;
+    }
 }
-.features-icon {
-    display: flex;
+
+@media only screen and (min-width:1168px) {
+
+    .features {
+            width: 1440px;
+            height: 464px;
+            padding: 120px 0px;
+            margin; auto;
+            
+        }
+
+    .features .container {
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+    
+                height: 224px;
+                max-width: 1158px;
+
+                margin-top: 0px;
+                    margin-bottom: 0px;
+                    
+    }
+    
+
+    .features-list {
+        display: flex;
+            align-items: center;
+            justify-content: center;
+        flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 24px;
+            width: 264px;
+
+}
+
+
+    .features-item {
+        width: 264px;
+        height: 224px;
+        min-width: 264px;
+        margin-bottom: 0px;
+    }
+
+    .features-caption {
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        width: 264px;
+    }
+
+    .features-desc {
+        font-weight: 400;
+                width: 264px;
+    }
+
+    .features-icon {
+        display: flex;
         align-items: center;
         justify-content: center;
 
         border: 1px solid #8e8f99;
-            border-radius: 4px;
-            width: 264px;
-            height: 112px;
-            background: #f4f4fd;
-    margin-bottom: 8px;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background: #f4f4fd;
+        margin-bottom: 8px;
+    }
 }
