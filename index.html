@@ -10,7 +10,7 @@
         rel="stylesheet">
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
             integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
@@ -49,7 +49,7 @@
     </address>
     </div>
 </header>
-<main hidden>
+<main>
     <section class="hero" id="hero">
         <div class="container">
             <h1 class="hero-title">
@@ -338,7 +338,7 @@
     </section>
 </main>
 <footer id="footer">
-<div class="footer hidden">
+<div class="footer">
     <div class="container">
         <ul class="footer-tab-padding">
             <li class="footer-tab-element">
@@ -420,14 +420,17 @@
         </div>
         </div>
     </footer>
-<div class="mobile-menu is-open" id="mob-men">
+<div class="mobile-menu" id="mob-men">
 
+    <div class="mobile-close">
+        <button class="mobile-menu-btn" type="button">
+            <svg class="mobile-menu-btn-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+    </div>
         <div class="mob-men">
-            <button class="mobile-menu-btn" type="button">
-                <svg class="mobile-menu-btn-icon" width="8" height="8">
-                    <use href="./images/icons.svg#icon-close"></use>
-                </svg>
-            </button>
+           
             <ul class="mobile-menu-list">
                 <li class="mobile-menu-item">
                     <a class="mobile-menu-link current" href="#">Studio</a>
@@ -451,37 +454,39 @@
                     </li>
                 </ul>
             </address>
-            <ul class="socialicons">
-                <li class="social-item-mobile">
-                    <a class="social-link-mobile" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
-                        aria-label="link to instagram">
-                        <svg class="footer-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-Instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social-item-mobile">
-                    <a class="social-link-mobile" href="https://x.com" target="_blank" rel="noopener noreferrer"
-                        aria-label="link to instagram">
-                        <svg class="footer-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-X"></use>
-                        </svg></a>
-                </li>
-                <li class="social-item-mobile">
-                    <a class="social-link-mobile" href="https://facebook.com" target="_blank" rel="noopener noreferrer"
-                        aria-label="link to instagram">
-                        <svg class="footer-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-Facebook"></use>
-                        </svg></a>
-                </li>
-                <li class="social-item-mobile">
-                    <a class="social-link-mobile" href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
-                        aria-label="link to instagram">
-                        <svg class="footer-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-Linkedin"></use>
-                        </svg></a>
-                </li>
-            </ul>
+            <div class="social-icons">
+                <ul class="socialicons">
+                    <li class="social-item-mobile">
+                        <a class="social-link-mobile" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="link to instagram">
+                            <svg class="footer-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-Instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item-mobile">
+                        <a class="social-link-mobile" href="https://x.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="link to instagram">
+                            <svg class="footer-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-X"></use>
+                            </svg></a>
+                    </li>
+                    <li class="social-item-mobile">
+                        <a class="social-link-mobile" href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="link to instagram">
+                            <svg class="footer-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-Facebook"></use>
+                            </svg></a>
+                    </li>
+                    <li class="social-item-mobile">
+                        <a class="social-link-mobile" href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                            aria-label="link to instagram">
+                            <svg class="footer-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-Linkedin"></use>
+                            </svg></a>
+                    </li>
+                </ul>
+            </div>
             </div>
         </div>
     </div>

@@ -1,8 +1,6 @@
 .footer {
     background: #2e2f42;
     width: 100%;
-height: 664px;
-display: none;
 }
 
 .footer .container {
@@ -10,7 +8,6 @@ display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 472px;
     gap: 72px;
 }
 
