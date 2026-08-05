@@ -1,6 +1,6 @@
 
 
-. header {
+.header {
     width: 100%;
     height: 66px;
    padding: 16px;
@@ -14,7 +14,7 @@
 }
 
 
-@media only screen and (min-width: 1168px) {
+@media only screen and (min-width: 1158px) {
 .header {
     padding: 0px 15px;
   }
@@ -41,13 +41,13 @@
     margin-right: auto;    }
 }
 
-@media only screen and (min-width: 1168px) {
+@media only screen and (min-width: 1158px) {
     .header-nav {
-        margin-left: auto;
+        margin-left: 76px;
     }
 }
 
- @media only screen and (min-width: 11688px) {
+ @media only screen and (min-width: 1158px) {
 .header-nav-list {
     display: flex;
         align-items: center;
@@ -127,6 +127,8 @@
      line-height: 1.33;
      letter-spacing: 0.03em;
      text-transform: uppercase;
+     top: 24px;
+     bottom: 24px;
  }
 
  .top-logo {
@@ -153,8 +155,8 @@
 .contact-tel,
 .contact-mail {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4,
@@ -175,13 +177,14 @@
 
 }
 
-@media only screen and (min-width: 1168px) {
+@media only screen and (min-width: 1158px) {
 
 .contacts-header {
         flex-direction: row;
         gap: 40px;
         padding-top: 24px;
         padding-bottom: 24px;
+        margin: auto;
 }
 }
 

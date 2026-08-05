@@ -4,8 +4,6 @@ display: flex;
     justify-content: center;
     flex-direction: column;
 
-    margin-top: 96px;
-    margin-bottom: 96px;
         width: 320px;
         height: 696px;
         min-width: 320px;
@@ -24,7 +22,6 @@ display: flex;
     gap: 8px;
     margin-bottom: 72px;
 
-    width: 288px;
         height: 120px;
         max-width: 288px;
 }
@@ -85,7 +82,7 @@ width: 768px;
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
-        gap: 24px;
+        gap: 72px;
         width: 768px;
             height: 312px;
     }
@@ -124,7 +121,7 @@ width: 768px;
     }
 }
 
-@media only screen and (min-width:1168px) {
+@media only screen and (min-width:1158px) {
 
     .features {
             width: 1440px;
@@ -155,7 +152,6 @@ width: 768px;
         flex-direction: row;
             flex-wrap: nowrap;
             gap: 24px;
-            width: 264px;
 
 }
 

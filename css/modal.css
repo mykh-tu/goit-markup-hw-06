@@ -365,7 +365,7 @@ width: 360px;
 }
 }
 
-@media only screen and (min-width: 1168px) {
+@media only screen and (min-width: 1158px) {
 
     .modal {
     min-height: 582px;
