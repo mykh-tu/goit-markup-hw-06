@@ -47,7 +47,7 @@
     }
 }
 
- @media only screen and (max-width: 768px) {
+ @media only screen and (min-width: 11688px) {
 .header-nav-list {
     display: flex;
         align-items: center;

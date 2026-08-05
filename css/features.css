@@ -19,6 +19,7 @@ display: flex;
   }
 .features-item {
     display: flex;
+ 
     flex-direction: column;
     gap: 8px;
     margin-bottom: 72px;
@@ -27,6 +28,34 @@ display: flex;
         height: 120px;
         max-width: 288px;
 }
+
+
+
+.features-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+   .features-desc {
+       font-family: "Roboto", sans-serif;
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+       color: #434455;
+
+       display: flex;
+       align-items: flex-start;
+       justify-content: flex-start;
+   }
+
 
     @media only screen and (min-width: 768px) {
 

@@ -14,3 +14,9 @@
 .hide {
     display: none;
 }
+
+@media only screen and (max-width: 1167.98px) {
+.footer-wrap {
+    width: calc((100% - 24px) / 2);
+}
+}
