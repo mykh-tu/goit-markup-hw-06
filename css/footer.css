@@ -105,6 +105,7 @@ width: 288px;
     align-items: center;
     justify-content: center;
 flex-direction: column;
+gap: 16px;
 width: 288px;
 height: 136px;
 }
@@ -220,6 +221,7 @@ width: 288px;
     justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 24px;
     height: 264px;
     padding: 0px 108px;
     width: 768px;}
@@ -235,7 +237,7 @@ width: 288px;
     width: 264px;
     height: 112px;
     max-width: 264px;
-    margin-bottom: 0px;
+    margin-bottom: 72px;
     
 }
 
@@ -247,7 +249,7 @@ width: 288px;
     gap: 16px;
     width: 208px;
     height: 80px;
-    margin-bottom: 0px;
+    margin-bottom: 104px;
 }
 
 .footer-form {
@@ -256,15 +258,25 @@ width: 288px;
     justify-content: flex-start;
 }
 
+.footer-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
 .footer-form-right {
     display: flex;
     align-items: flex-start;
-width: 453px;
+    width: 453px;
     height: 80px;
     max-width: 453px;        
 }
 
 .footer-form-wrapper {
+    display: flex;
         width: 264px;
 }
 
@@ -281,9 +293,7 @@ display: inline-flex;
     align-items: flex-start;
         justify-content: flex-start;
         flex-direction: row;
-        gap: 24px;
-        margin-top: 72px;
-        
+        gap: 24px;        
 }
 
 .form-list {
@@ -291,7 +301,13 @@ display: inline-flex;
     align-items: flex-start;
         justify-content: flex-start;
     flex-direction: row;
-    gap: 24px;
+
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
     width: 453px;
 }
 
@@ -310,8 +326,8 @@ display: inline-flex;
 
     .footer .container {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-start;
+        justify-content: flex-start;
         flex-direction: row;
         flex-wrap: nowrap;
         width: 1158px;
@@ -322,9 +338,11 @@ display: inline-flex;
     }
 .footer-bottom {
     margin-left: 0px;
+    margin-bottom: 0px;
 }
    .footer-box {
     margin-left: 120px;
+    margin-bottom: 0px;
 }
 
    .footer-form {
@@ -333,6 +351,13 @@ display: inline-flex;
 
    .footer-form-wrapper {
        width: 264px;
+   }
+   
+   .footer-form-right {
+    display: flex;
+    margin-left: auto;
+    bottom: 0px;
+    margin: auto;
    }
 
    .footer-form-field {

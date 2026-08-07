@@ -117,7 +117,7 @@ padding: 72px 16px 40px;
     height: 72px;
 }
 
-.contact-item-mobile {
+.contact-item {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 20px;
@@ -126,25 +126,33 @@ padding: 72px 16px 40px;
 
 }
 
-.contact-mail-mobile,
-.contact-tel-mobile {
+.contact-tel {
         font-family: "Roboto", sans-serif;
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
             letter-spacing: 0.02em;
-                    color: #2E2F42;
+                    color: #4d5ae5;
 }
-.contact-tel-mobile {
+
+.contact-mail {
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    color: #434455;
+}
+.contact-tel {
     color: #4d5ae5;
 }
 
-.contact-mail-mobile:hover, .contact-mail-mobile:focus,
-.contact-tel-mobile:hover, .contact-tel-mobile:focus {
+.contact-mail:hover, .contact-mail:focus,
+.contact-tel:hover, .contact-tel:focus {
 color: #4d5ae5;
 }
 
-.contacts-social-mobile {
+.contacts-social {
     display: flex;
         align-items: flex-start;
         justify-content: flex-start;

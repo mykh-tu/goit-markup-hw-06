@@ -125,8 +125,8 @@
      line-height: 1.33;
      letter-spacing: 0.03em;
      text-transform: uppercase;
-     padding-top: 24px;
-     padding-bottom: 24px;
+     padding-top: 16px;
+     padding-bottom: 16px;
  }
 
  .top-logo {
@@ -138,6 +138,11 @@
 
 
 @media only screen and (min-width: 768px) {
+
+.logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
     .contacts-header {
             display: flex;
@@ -190,8 +195,7 @@
     line-height: 1.5;
     font-weight: 400;
         letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
+ 
 } 
 }
 
