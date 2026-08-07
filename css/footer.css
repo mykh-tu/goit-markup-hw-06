@@ -53,7 +53,7 @@ footer#footer .container {
     flex-direction: column;
     gap: 16px;
 width: 288px;
-    height: 112px;
+    max-height: 112px;
     max-width: 288px;
 
 }
@@ -109,7 +109,7 @@ width: 288px;
 flex-direction: column;
 gap: 16px;
 width: 288px;
-height: 136px;
+max-height: 136px;
 }
 
 .footer-form {
@@ -132,7 +132,7 @@ width: 288px;
     border-radius: 4px;
     padding: 8px 16px;
     width: 288px;
-    height: 40px;
+    mix-height: 40px;
 
     outline: none;
     transition: border 250ms cubic-bezier(0.4,
@@ -155,7 +155,7 @@ width: 288px;
     border-radius: 4px;
     padding: 8px 24px;
     width: 165px;
-    height: 40px;
+    max-height: 40px;
     max-width: 165px;
 
     font-family: "Roboto", sans-serif;
@@ -196,7 +196,7 @@ width: 288px;
     flex-direction: column;
     gap: 16px;
         width: 453px;
-        height: 80px;
+        max-height: 80px;
 }
 
 .form-list {
@@ -227,7 +227,7 @@ footer#footer .container {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
-    height: 264px;
+    max-height: 264px;
     padding: 0px 108px;
     width: 768px;
     column-gap: 72px;
@@ -243,7 +243,7 @@ footer#footer .container {
     justify-content: flex-start;
     flex-direction: column;
     width: 264px;
-    height: 112px;
+    max-height: 112px;
     max-width: 264px;
     
 }
@@ -255,7 +255,7 @@ footer#footer .container {
     flex-direction: column;
     gap: 16px;
     width: 208px;
-    height: 80px;
+    max-height: 80px;
 }
 
 .footer-form {
@@ -277,7 +277,7 @@ footer#footer .container {
     display: flex;
     align-items: flex-start;
     width: 453px;
-    height: 80px;
+    max-height: 80px;
     max-width: 453px;        
 }
 
@@ -339,7 +339,7 @@ display: inline-flex;
         flex-direction: row;
         flex-wrap: nowrap;
         width: 1158px;
-        height: 112px;
+        max-height: 112px;
         max-width: 1158px;
         padding-left: 0px;
         padding-right: 0px;
