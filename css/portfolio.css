@@ -15,7 +15,7 @@
 
 .portfolio-list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     gap: 48px;
 }
@@ -119,6 +119,7 @@ width: 288px;
 
         .portfolio-list {
             gap: 72px;
+            flex-direction: row;
             flex-wrap: wrap;
             column-gap: 24px;
         }
