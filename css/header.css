@@ -21,6 +21,7 @@
 .header > .container {
     display: flex;
         width: 100%;
+        align-items: center;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -182,7 +183,6 @@
 .contacts-header {
         flex-direction: row;
         gap: 40px;
-
 }
 
 .contact-tel,
@@ -191,7 +191,7 @@
     line-height: 1.5;
     font-weight: 400;
         letter-spacing: 0.02em;
- 
+    
 } 
 }
 

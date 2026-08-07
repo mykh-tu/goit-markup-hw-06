@@ -152,9 +152,6 @@ address {
 
 @media screen and (min-width: 1158px) {
     .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         padding: 0px 15px;
         width: 1158px;
         max-width: 1158px;
