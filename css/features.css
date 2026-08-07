@@ -8,7 +8,7 @@ display: flex;
 }
   .features-list {
 display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     flex-direction: column;
     flex-basis: auto;
@@ -127,7 +127,6 @@ min-width: 768px;
     .features {
             width: 1440px;
             height: 464px;
-            padding: 120px 0px;
             margin: auto;
             
         }
@@ -165,7 +164,6 @@ min-width: 768px;
     }
 
     .features-caption {
-        margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -188,6 +186,5 @@ min-width: 768px;
         width: 264px;
         height: 112px;
         background: #f4f4fd;
-        margin-bottom: 8px;
     }
 }
