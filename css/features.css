@@ -156,6 +156,7 @@ min-width: 768px;
 
     .features-item {
         width: 264px;
+
         min-width: 264px;
         margin-bottom: 0px;
     }

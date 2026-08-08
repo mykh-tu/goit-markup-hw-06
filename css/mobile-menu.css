@@ -45,6 +45,11 @@ transition: transform 250ms cubic-bezier(0.4,
     height: 100%;
 }
 
+.nav {
+    display: flex;
+    margin-bottom: auto;
+}
+
 .mobile-menu-btn {
     position: absolute;
     background-color: #e7e9fc;

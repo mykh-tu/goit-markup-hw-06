@@ -113,13 +113,13 @@ width: 288px;
     
     .portfolio .container {
         height: 100%;
+        gap: 72px;
     }
 
         .portfolio-list {
-            column-gap: 24px;
             flex-direction: row;
             flex-wrap: wrap;
-            gap: 72px;
+            column-gap: 24px;
         }
 
 .portfolio-item {
@@ -156,12 +156,12 @@ width: 100%;
     .portfolio {}
         
     .portfolio .container {
+        gap: 48px;
  }
 
 .portfolio-list {    
-    column-gap: 24px;
     flex-wrap: wrap;
-    gap: 48px;
+    column-gap: 24px;
 }
 
 .portfolio-item {
