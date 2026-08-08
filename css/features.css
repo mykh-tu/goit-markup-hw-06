@@ -148,7 +148,7 @@ min-width: 768px;
             justify-content: center;
         flex-direction: row;
             flex-wrap: nowrap;
-            gap: 0px 24px;
+            gap:0px 24px;
     }
 
     .features-item {
